@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Clonned Website</title>
+  <style>
+    body {}
+
+    .three {
+      display: inline-flex;
+      margin: 50px;
+    }
+
+    .rd {
+      margin-left: 70px;
+    }
+
+    .vpb {
+
+      margin-left: 150px;
+    }
+
+    .sap {
+
+      margin-left: 150px;
+    }
+
+    .rd h3 {
+      font-size: 15px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .rd h1 {
+      margin-top: 100px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .vpb h1 {
+      margin-top: 100px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .rd p {
+      font-size: 11px;
+    }
+
+    #para {
+      font-size: 50px;
+    }
+
+    .vpb h3 {
+      font-size: 15px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .vpb p {
+      font-size: 11px;
+    }
+
+    .sap h3 {
+      font-size: 15px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .sap p {
+      font-size: 11px;
+    }
+
+    .mid-sec {
+      background-image: url(https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .mid-sec h1 {
+
+      margin-left: 10px;
+      margin-top: 50px;
+      position: relative;
+      font-size: 50px;
+      width: 400px;
+    }
+
+    .mid-sec p {
+      font-size: 20px;
+      width: 400px;
+    }
+
+    .content {
+      display: flexbox;
+      align-items: center;
+    }
+
+    .button1 {
+      font-size: 15px;
+      background-color: rgb(255, 115, 0);
+      color: whitesmoke;
+      border-radius: 20px;
+      padding: 10px;
+      margin-left: 100px;
+      width: 250px;
+      font-weight: bold;
+    }
+
+    .button1:hover,
+    .button1:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+      cursor: pointer;
+    }
+
+    $colors: (.button1: #000000);
+
+    #three {
+      display: inline-flex;
+      margin: 50px;
+    }
+
+    #rd {
+      margin-left: 70px;
+      width: 700px;
+    }
+
+    #vpb {
+
+      margin-left: 150px;
+    }
+
+    #rd h3 {
+      font-size: 15px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    #rd p {
+      font-size: 11px;
+    }
+
+    #vpb h3 {
+      font-size: 15px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    #vpb p {
+      font-size: 11px;
+    }
+
+    .graphy {
+      margin: 10px;
+    }
+
+    .g1 {
+      background-color: rgba(128, 128, 128, 0.37);
+      height: 30px;
+      width: 400px;
+
+    }
+    #p1 {
+      background-color: rgb(245, 70, 17);
+     
+      height: 30px;
+      color: white;
+      font-size: 20px;
+      animation-name: incre1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -o-animation-fill-mode: forwards;
+    }
+
+    @keyframes incre1 {
+      from {
+        width: 100px;
+      }
+
+      to {
+        width: 380px;
+      }
+    }
+
+    .g2 {
+      background-color: rgba(128, 128, 128, 0.37);
+      height: 30px;
+      width: 400px;
+      margin-top: 30px;
+    }
+
+    #p2 {
+      background-color: rgb(245, 70, 17);
+      
+      height: 30px;
+      color: white;
+      font-size: 20px;
+      animation-name: incre2;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -o-animation-fill-mode: forwards;
+    }
+    @keyframes incre2 {
+      from {
+        width: 100px;
+      }
+
+      to {
+        width: 340px;
+      }
+    }
+
+    .g3 {
+      background-color: rgba(128, 128, 128, 0.37);
+      height: 30px;
+      width: 400px;
+      margin-top: 30px;
+    }
+
+    #p3 {
+      background-color: rgb(245, 70, 17);
+     
+      height: 30px;
+      color: white;
+      font-size: 20px;
+      animation-name: incre3;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -o-animation-fill-mode: forwards;
+    }
+    @keyframes incre3 {
+      from {
+        width: 100px;
+      }
+
+      to {
+        width: 300px;
+      }
+    }
+
+    .g4 {
+      background-color: rgba(128, 128, 128, 0.37);
+      height: 30px;
+      width: 400px;
+      margin-top: 30px;
+    }
+
+    #p4 {
+      background-color: rgb(245, 70, 17);
+     
+      height: 30px;
+      color: white;
+      font-size: 20px;
+      animation-name: incre4;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      -o-animation-fill-mode:forwards;
+    }
+    @keyframes incre4 {
+      from {
+        width: 100px;
+      }
+
+      to {
+        width: 280px;
+      }
+    }
+#para{
+  font-size: 20px;
+}
+.numbers {
+      display: inline-flex;
+      margin: 50px;
+      margin-left: 220px;
+    }
+
+    .n1 {
+      margin-left: 70px;
+    }
+
+    .n2 {
+
+      margin-left: 150px;
+    }
+
+    .n3 {
+
+      margin-left: 150px;
+    }
+    .n4 {
+
+margin-left: 150px;
+}
+
+    .n1 h3 {
+      font-size: 30px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .n1 h1 {
+      margin-top: 100px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .n2 h1 {
+      margin-top: 100px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .n1 p {
+      font-size: 20px;
+    }
+
+    
+
+    .n2 h3 {
+      font-size: 30px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .n2 p {
+      font-size:20px;
+    }
+
+    .n3 h3 {
+      font-size: 30px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .n3 p {
+      font-size: 20px;
+    }
+    .n4 h3 {
+      font-size: 30px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .n4 p {
+      font-size: 20px;
+    }
+.get-koral{
+  background: url(https://media.istockphoto.com/photos/nature-abstract-backgrounddark-leaves-texturemodern-art-can-be-used-picture-id1053170284?b=1&k=20&m=1053170284&s=170667a&w=0&h=DYhS_11Htbjqix7Ba-CecFVoHaaXOJVfLveHdMUESXs=);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+position: static;
+opacity: 1;
+}
+.get-koral h1{
+  color: white;
+  font-size: 30px;
+  position: relative;
+  margin-left: 450px;
+
+}
+.get-koral h3{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  margin-left: 410px;
+
+}
+.get-koral button{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  margin-left: 620px;
+background-color: rgba(0, 0, 0, 0.089);
+height: 40px;
+border-radius: 50px;
+border-color: white;
+margin-top: 10px;
+}
+.get-koral button:hover,
+.get-koral button:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+      cursor: pointer;
+      background-color: rgba(255, 51, 0, 0.555);
+      border-color: rgb(255, 51, 0.555);
+    }
+   .cont{
+     margin-left: 50px;
+     justify-content: center;
+     align-items: center;
+   }
+   .nav-bar{
+    background-color: rgba(0, 0, 0, 0.616);
+        }
+        .list{
+          display: flex;
+         
+        }
+        .nav-bar ul{
+          overflow: auto;
+          margin: 5px;
+          margin-top: 30px;
+        }
+        .nav-bar li{
+          float: left;
+          list-style: none;
+          margin: 13px 20px;
+         font-weight: bold;
+         color: aliceblue;
+        }
+        .list{
+          margin-left: 400px;
+        }
+        .heading{
+          font-size: 50px;
+          margin-left: 0px;
+          margin-top: 0px;
+        }
+        .nav-bar a{
+          text-decoration: none;
+          color: white;
+        }
+        .nav-bar a:hover{
+          cursor: pointer;
+          color: orangered;
+      
+        }
+  </style>
+</head>
+
+<body>
+  <div class="nav-bar">
+    <li class="heading">koral</li>
+ <div class="list">
+  <ul> 
+        <a><li>Home</li></a> 
+        <a> <li>Pages</li></a> 
+        <a> <li>Portfolio</li></a> 
+        <a> <li>Headers</li></a> 
+        <a> <li>Elements</li></a> 
+        <a> <li>blog</li></a> 
+     </ul>
+ </div>
+ </div>
+  <div class="boddy">
+ <!-- The corousal -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100"
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="First slide">
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+            src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="Second slide">
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+            src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="Third slide">
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+   <!-- The mid sec -->
+  <div class="three">
+    <div class="rd">
+      <img src="">
+      <h3>Responsive Design</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur hic perferendis, distinctio doloremque.</p>
+    </div>
+    <div class="vpb">
+      <img src="">
+      <h3>Visual Page Builder</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur hic perferendis, distinctio doloremque.</p>
+    </div>
+    <div class="sap">
+      <img src="">
+      <h3>Strong Admin Panel</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur hic perferendis, distinctio doloremque.</p>
+    </div>
+  </div>
+  <div class="mid-sec">
+    <div class="content">
+      <h1>We design & develop
+        creative digital strategies</h1>
+      <p>Specializing Master in Service Design trains specialists in the design
+        of services for businesses and public-sector organizations.</p>
+      <button class="button1">Request A Quote Today</button>
+    </div>
+  </div>
+  <div id="three" class="three">
+    <div id="rd" class="rd">
+ <!-- About koral -->
+      <h1>About Koral</h1>
+      <p id="para">Uniquely create competitive e-markets for backward-compatible technologies. Authoritatively morph
+        efficient networks via bleeding-edge results.</p>
+      <p id="para">Completely drive e-markets via quality e-business. Progressively plagiarize enterprise strategic
+        theme areas with ubiquitous sources. Enthusiastically drive team driven processes rather than e-tailers.</p>
+    </div>
+    <div id="vpb1" class="vpb">
+ <!-- The progress graph -->
+      <h1>Our Skill Set</h1>
+      <div class="graphy">
+        <div class="g1">
+          <p id="p1">Development
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;95%
+          </p>
+        </div>
+        <div class="g2">
+          <p id="p2">
+            Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;85%
+          </p>
+        </div>
+        <div class="g3">
+          <p id="p3">
+            Marketing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75%
+          </p>
+        </div>
+        <div class="g4">
+          <p id="p4">
+            Consulting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- The numbers -->
+  <div class="numbers">
+    <div class="n1">
+      <img src="">
+      <h3>3250</h3>
+      <p>Work Hours</p>
+    </div>
+    <div class="n2">
+      <img src="">
+      <h3>340</h3>
+      <p>Finished Works</p>
+    </div>
+    <div class="n3">
+      <img src="">
+      <h3>5430</h3>
+      <p>Twitter Followers</p>
+    </div>
+    <div class="n4">
+      <img src="">
+      <h3>81250</h3>
+      <p>Data Stored</p>
+    </div>
+  </div>
+   <!-- Get koral now -->
+   <div class="get-koral">
+     <div class="cont">
+     <h1>Ready for change your Website look?</h1>
+     <h3>Koral come with all the necessary tools to build an amazing one!</h3>
+     <button>Get Koral Now!</button>
+    </div>
+    </div>
+ 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
